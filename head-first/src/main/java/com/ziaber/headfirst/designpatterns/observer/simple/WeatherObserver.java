@@ -1,4 +1,4 @@
-package com.ziaber.headfirst.designpatterns.observer;
+package com.ziaber.headfirst.designpatterns.observer.simple;
 
 /**
  * Created by Marcin Ziaber on 2017-09-23.

@@ -1,8 +1,7 @@
-package com.ziaber.headfirst.designpatterns.observer.displays;
+package com.ziaber.headfirst.designpatterns.observer.simple.displays;
 
-import com.ziaber.headfirst.designpatterns.observer.DisplayElement;
-import com.ziaber.headfirst.designpatterns.observer.Subject;
-import com.ziaber.headfirst.designpatterns.observer.WeatherObserver;
+import com.ziaber.headfirst.designpatterns.observer.simple.Subject;
+import com.ziaber.headfirst.designpatterns.observer.simple.WeatherObserver;
 
 /**
  * Created by Marcin Ziaber on 2017-09-23.

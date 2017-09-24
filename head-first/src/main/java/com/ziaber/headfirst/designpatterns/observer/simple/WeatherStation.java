@@ -1,9 +1,8 @@
-package com.ziaber.headfirst.designpatterns.observer;
+package com.ziaber.headfirst.designpatterns.observer.simple;
 
-import com.ziaber.headfirst.designpatterns.observer.DisplayElement;
-import com.ziaber.headfirst.designpatterns.observer.WeatherData;
-import com.ziaber.headfirst.designpatterns.observer.displays.CurrentConditionsDisplay;
-import com.ziaber.headfirst.designpatterns.observer.displays.HeatIndexDisplay;
+import com.ziaber.headfirst.designpatterns.observer.simple.displays.CurrentConditionsDisplay;
+import com.ziaber.headfirst.designpatterns.observer.simple.displays.DisplayElement;
+import com.ziaber.headfirst.designpatterns.observer.simple.displays.HeatIndexDisplay;
 
 /**
  * Created by Marcin Ziaber on 2017-09-23.

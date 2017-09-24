@@ -1,6 +1,6 @@
-package com.ziaber.headfirst.desingpatterns.ducks;
+package com.ziaber.headfirst.designpatterns.ducks;
 
-import com.ziaber.headfirst.desingpatterns.ducks.behaviors.FlyRocketPowered;
+import com.ziaber.headfirst.designpatterns.ducks.behaviors.FlyRocketPowered;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.ziaber.headfirst.desingpatterns.ducks.behaviors;
+package com.ziaber.headfirst.designpatterns.ducks.behaviors;
 
 public class FlyNoWay implements FlyBehavior {
     @Override
