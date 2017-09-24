@@ -1,7 +1,7 @@
-package com.ziaber.headfirst.desingpatterns.ducks;
+package com.ziaber.headfirst.designpatterns.ducks;
 
-import com.ziaber.headfirst.desingpatterns.ducks.behaviors.FlyBehavior;
-import com.ziaber.headfirst.desingpatterns.ducks.behaviors.QuackBehavior;
+import com.ziaber.headfirst.designpatterns.ducks.behaviors.FlyBehavior;
+import com.ziaber.headfirst.designpatterns.ducks.behaviors.QuackBehavior;
 
 public abstract class Duck {
 
@@ -10,15 +10,15 @@ public abstract class Duck {
 
     public abstract void display();
 
-    public void performFly(){
+    public void performFly() {
         this.flyBehavior.fly();
     }
 
-    public void performQuack(){
+    public void performQuack() {
         this.quackBehavior.quack();
     }
 
-    public void swim(){
+    public void swim() {
         System.out.println("All ducks float!");
     }
 

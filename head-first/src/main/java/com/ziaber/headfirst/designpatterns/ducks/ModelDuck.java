@@ -1,7 +1,7 @@
-package com.ziaber.headfirst.desingpatterns.ducks;
+package com.ziaber.headfirst.designpatterns.ducks;
 
-import com.ziaber.headfirst.desingpatterns.ducks.behaviors.FlyNoWay;
-import com.ziaber.headfirst.desingpatterns.ducks.behaviors.Quack;
+import com.ziaber.headfirst.designpatterns.ducks.behaviors.FlyNoWay;
+import com.ziaber.headfirst.designpatterns.ducks.behaviors.Quack;
 
 public class ModelDuck extends Duck {
 

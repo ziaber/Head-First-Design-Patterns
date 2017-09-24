@@ -1,4 +1,4 @@
-package com.ziaber.headfirst.designpatterns.observer;
+package com.ziaber.headfirst.designpatterns.observer.simple;
 
 import java.util.ArrayList;
 
@@ -11,11 +11,11 @@ public class WeatherData implements Subject {
     private float humidity;
     private float pressure;
 
-    public void measurementChanged(){
+    private void measurementChanged() {
         notifyObservers();
     }
 
-    public void setMeasurements(float temperature, float humidity, float pressure){
+    public void setMeasurements(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;
